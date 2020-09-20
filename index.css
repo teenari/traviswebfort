@@ -1,4 +1,25 @@
 html {
     background: #322f3d;
     overflow: hidden;
+    font-family: t;
+}
+
+.avatar-container {
+    border-radius: 150px;
+    overflow: hidden;
+    width: 128px;
+    position: relative;
+    top: 38vh;
+    height: 128px;
+}
+
+.quote {
+    position: relative;
+    top: 38vh;
+    left: 50%;
+}
+
+@font-face {
+    font-family: t;
+    src: url(./BurbankBigCondensed-Black.otf);
 }
